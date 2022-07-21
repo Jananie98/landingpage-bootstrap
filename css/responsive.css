@@ -1,0 +1,16 @@
+@media(max-width:991px){
+    .box-Body{
+        display: none;
+    }
+
+    .featured-project-topic{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .copyright-footer{
+        text-align: center;
+        padding: 10px 15px;
+    }
+}

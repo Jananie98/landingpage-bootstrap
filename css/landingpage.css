@@ -1,0 +1,31 @@
+/* #################################### Nav bar customization ##########################################*/
+
+#appName{
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+a .nav-link{
+    color: #777 !important;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+a.nav-link.active{
+    color: white !important;
+}
+
+a.nav-link:hover{
+    color: white !important;
+}
+
+/* Hero image */
+#hero-image{
+    background-image: url(../images/3840x2160.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}

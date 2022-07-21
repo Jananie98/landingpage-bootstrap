@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/landingpage.css">
+
+</head>
+
+<body>
+        <!-- ################################################### navbar ############################################################# -->
+        <section>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-primary">
+                <div class="container">
+                    <a href="index.html" id="appName"><i class="bi bi-camera-fill text-white"></i> App Name </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar"
+                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item avtive " aria-current="page">
+                                <a href="#hero-image" class="nav-link active">To the top</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#description" class="nav-link">Description</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#trailer" class="nav-link">Trailer</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#showcase" class="nav-link">Showcase</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#features" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#pricing" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item" aria-current="page">
+                                <a href="#reviews" class="nav-link">Reviews</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- ####################################################### Body area ############################################################## -->
+        <section id="hero-image" class="text-center text-white d-flex justify-content-center align-items-center py-5">
+            <div class="container">
+				<h1 class="display-1 text-primary text-uppercase mt-5">App Name</h1>
+				<p class="display-4">Lorem ipsum dolor</p>
+				<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<p class="lead">Laborum unde dolores ullam nostrum?</p>
+				<p><strong>Download now on:</strong></p>
+				<a href="#0" class="btn btn-lg btn-primary mb-3 mb-sm-0 me-sm-3"><i class="fa-brands fa-app-store"></i> App Store</a>
+				<a href="#0" class="btn btn-lg btn-primary"><i class="bi bi-google-play"></i> Google Play</a>
+			</div>
+        </section>
+
+        <!-- ################################################################ Content area #############################################-->
+
+        <div class="container">
+            <section id="description">
+                <h3 class="text-center display-3 mt-5">What is App Name?</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id molestias, explicabo iusto atque. Libero voluptates, maxime ipsa iure quis veritatis obcaecati vitae eaque exercitationem non saepe enim!
+            </p>
+            <p>
+                Ducimus et aperiam tempora pariatur, excepturi est mollitia alias, hic voluptas, porro repudiandae voluptatum nulla minus ipsam repellat accusamus voluptate nam modi!
+            </p>
+            </section>
+
+            <section id="trailer">
+                <h3 class="text-center display-3 ">App Name Trailer</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI"></iframe>
+            </div>
+            </section>
+
+            <!-- ################################################## Carousel #################################################################-->
+            <section id="showcase">
+                <h3 class="text-center display-3">App Name in action</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    
+                <div id="appName-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#appName-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#appName-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#appName-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#appName-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/2220x1665-primary.png" class="d-block w-100 img-fluid" alt="primary">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Slide Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/2220x1665-success.png" class="d-block w-100 img-fluid" alt="success">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Slide Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/2220x1665-danger.png" class="d-block w-100 img-fluid" alt="danger">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Slide Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/2220x1665-warning.png" class="d-block w-100 img-fluid" alt="warning">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Slide Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#appName-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#appName-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- ############################################################## Features ################################################-->
+              <section id="features">
+                <h3 class="display-3 text-center mt-5">Features</h3>
+              <div class="row mt-4 mb-5">
+                <div class="col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                    <i class="bi bi-brush-fill text-info fs-3"></i>
+                    <h5>Feature heading</h5>
+                    <p class="text-center">Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <button class="btn btn-info btn-sm">Read more...</button>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center flex-column">   
+                    <i class="bi bi-camera-video-fill text-info fs-3"></i>
+                    <h5>Feature heading</h5>
+                    <p class="text-center">Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <button class="btn btn-info btn-sm">Read more...</button>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                    <i class="bi bi-instagram text-info fs-3"></i>
+                    <h5>Feature heading</h5>
+                    <p class="text-center">Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <button class="btn btn-info btn-sm">Read more...</button>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                    <i class="bi bi-phone text-info fs-3"></i>
+                    <h5>Feature heading</h5>
+                    <p class="text-center">Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <button class="btn btn-info btn-sm">Read more...</button>
+                </div>
+              </div>
+              </section>
+
+              <!--############################################################### Pricing ###################################################-->
+              <section id="pricing">
+                <h3 class="display-3 text-center">Choose your Plan</h3>
+                <div class="row m-2">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-success text-center text-white">
+                               <h3> Starter <br> Free </h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                                    <li class="list-group-item"> <i class="bi bi-brush-fill"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-instagram"></i> Item description </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer d-flex align-items-center flex-column">
+                                <button class="btn btn-success text-white">Select Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-warning text-center text-white">
+                               <h3> Semi-pro <br> $1.99 / month </h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                                    <li class="list-group-item"> <i class="bi bi-brush-fill"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-instagram"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-gear-fill"></i> Item description </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer d-flex align-items-center flex-column">
+                                <button class="btn btn-warning text-white">Select Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-danger text-center text-white">
+                               <h3> Pro <br> $4.99 / month </h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                                    <li class="list-group-item"> <i class="bi bi-brush-fill"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-instagram"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-gear-fill"></i> Item description </li>
+                                    <li class="list-group-item"> <i class="bi bi-cloud-fill"></i> Item description </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer d-flex align-items-center flex-column">
+                                <button class="btn btn-danger text-white">Select Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+              <!-- ####################################################### Reviews ###########################################################-->
+              <section id="reviews">
+                <h3 class="display-3 text-center">Reveiws</h3>
+                <div class="row">
+                    <div class="col-lg-3 col-md-2">
+                        <blockquote class="blockquote mb-0">
+                            <i class="bi bi-quote text-muted"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id molestias, explicabo iusto atque.<i class="bi bi-quote text-muted"></i>
+                        </blockquote>
+                        <figcaption class="text-muted small mt-1">
+                            --Firstname Lastname (September 01 2020 12:00)
+                        </figcaption>
+                    </div>
+                    <div class="col-lg-3 col-md-2">
+                        <blockquote class="blockquote mb-0">
+                            <i class="bi bi-quote text-muted"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id molestias, explicabo iusto atque.<i class="bi bi-quote text-muted"></i>
+                        </blockquote>
+                        <figcaption class="text-muted small mt-1">
+                            --Firstname Lastname (September 01 2020 12:00)
+                        </figcaption>
+                    </div>
+                    <div class="col-lg-3 col-md-2">
+                        <blockquote class="blockquote mb-0">
+                            <i class="bi bi-quote text-muted"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id molestias, explicabo iusto atque.<i class="bi bi-quote text-muted"></i>
+                        </blockquote>
+                        <figcaption class="text-muted small mt-1">
+                            --Firstname Lastname (September 01 2020 12:00)
+                        </figcaption>
+                    </div>
+                    <div class="col-lg-3 col-md-2">
+                        <blockquote class="blockquote mb-0">
+                            <i class="bi bi-quote text-muted"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id molestias, explicabo iusto atque.<i class="bi bi-quote text-muted"></i>
+                        </blockquote>
+                        <figcaption class="text-muted small mt-1">
+                            --Firstname Lastname (September 01 2020 12:00)
+                        </figcaption>
+                    </div>
+                </div>
+              </section>
+     </div>
+              <!-- ########################################################## Newsletter ##################################################-->
+              <section id="newsletter">
+                <div class="container-fluid bg-secondary mt-5">
+                    <div class=" text-white d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="display-3 mt-5 ">Newsletter</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" placeholder="Firstname Lastname"/>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" placeholder="mail@example.com"/>
+                            </div>
+                        </div>
+                        <div class="mt-4 ">
+                            <input class="form-check-input " type="checkbox"/>
+                            <h6 class="d-inline text-white">I have read and accept the <a href="#">terms and conditions</a>.</h6>
+                            <p class="text-white mt-2">You can unsubcribe from the mailing list at any time</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                         <button class="btn btn-dark text-white mb-5">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+              <!-- ############################################################## Footer #####################################################-->
+              <section id="footer-area">
+                <footer class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-6 col-lg-3">
+                            <h6 class="fw-bold">Quick Links</h6>
+                            <ul class="list-unstyled">
+                            <li> <a href="">Home</a> </li>
+                            <li> <a href="">What's new</a> </li>
+                            <li> <a href="">Support</a> </li>
+                            <li> <a href="">My account</a> </li>
+                            <li> <a href="">Cancel subscription</a> </li>
+                        </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h6 class=" fw-bold">Information</h6>
+                            <ul class="list-unstyled ">
+                                <li> <a href="">About Us</a> </li>
+                                <li> <a href="">Jobs</a> </li>
+                                <li> <a href="">Press info</a> </li>
+                                <li> <a href="">Contact</a> </li>
+                                <li> <a href="">Partnership</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                        <h6 class="fw-bold">Follow Us</h6>
+                        <ul class="list-unstyled ">
+                            <li> <a href=""><i class="bi bi-facebook me-2"></i> Facebook</a> </li>
+                            <li> <a href=""><i class="bi bi-instagram me-2"></i> Instagram</a> </li>
+                            <li> <a href=""><i class="bi bi-twitter me-2"></i> Twitter</a> </li>
+                            <li> <a href=""><i class="bi bi-youtube me-2"></i> YouTube</a> </li>
+                            <li> <a href=""><i class="bi bi-linkedin me-2"></i>LinkedIn</a> </li>
+                        </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h6 class="fw-bold">Our Location</h6>
+                            <ul class="list-unstyled">
+                            <li class="fw-bold"> App Name </li>
+                            <li> 350 5th Avenue </li>
+                            <li> New York, NY 10118 </li>
+                            <li> <i class="bi bi-telephone-fill"></i> <a href="#">(212) 736-3100</a> </li>
+                            <li> <i class="bi bi-inbox-fill"></i> <a href="#">info@appname.com</a> </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>© 2020 App Name, Inc. All rights reserved. Terms of use and privacy policy.</p>
+                        </div>
+                        <div class="col-sm-6 d-flex flex-column align-items-end">
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-secondary dropdown-toggle mb-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Choose Language
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li>English</li>
+                                  <li>German</li>
+                                  <li>French</li>
+                                  <li>Spanish</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+              </section>
+        
+</body>
+
+</html>
